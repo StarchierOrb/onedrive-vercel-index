@@ -21,7 +21,6 @@ const Navbar = () => {
   const [tokenPresent, setTokenPresent] = useState(false)
   const [isOpen, setIsOpen] = useState(false)
 
-  const [searchOpen, setSearchOpen] = useState(false)
   const openSearchBox = () => setSearchOpen(true)
 
   useHotkeys(`${os === 'mac' ? 'cmd' : 'ctrl'}+k`, e => {
